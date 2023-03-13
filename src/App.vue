@@ -1,9 +1,13 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
+<script>
+export default {
+
+}
 </script>
 
 <template>
-  <div>APP</div>
+  <div class="container">APP</div>
 </template>
 
-<style scoped></style>
+<style lang="scss">
+@use './style/general.scss';
+</style>
