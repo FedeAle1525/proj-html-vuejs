@@ -51,7 +51,7 @@ nav {
     display: flex;
     gap: 30px;
     font-size: 15px;
-    font-weight: 400px;
+    font-weight: 400;
 
     .links {
       display: flex;
