@@ -1,11 +1,16 @@
 <script>
+import Header from './components/Header.vue';
 export default {
+
+  components: {
+    Header
+  }
 
 }
 </script>
 
 <template>
-  <div class="container">APP</div>
+  <Header />
 </template>
 
 <style lang="scss">
