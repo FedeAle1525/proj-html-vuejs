@@ -56,7 +56,7 @@ export default {
 </template>
 
 
-<style lang="scss">
+<style lang="scss" scoped>
 @use '../style/partials/variables' as *;
 
 //1 - Importo Font Google
