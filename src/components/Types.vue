@@ -37,7 +37,7 @@ export default {
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-6" v-for="card in cards">
+        <div class="col-2" v-for="card in cards">
           <div class="card">
             <img :src="card.img">
 
@@ -66,7 +66,7 @@ section {
   display: flex;
   margin: 0 -10px;
 
-  .col-6 {
+  .col-2 {
     flex-basis: calc(100% / 6);
     padding: 0 10px;
 

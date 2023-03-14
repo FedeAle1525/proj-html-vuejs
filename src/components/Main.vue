@@ -1,12 +1,14 @@
 <script>
 import Types from './Types.vue';
 import Tutoring from './Tutoring.vue';
+import Children from './Children.vue';
 
 export default {
 
   components: {
     Types,
-    Tutoring
+    Tutoring,
+    Children
   }
 }
 </script>
@@ -15,6 +17,8 @@ export default {
   <Types />
 
   <Tutoring />
+
+  <Children />
 </template>
 
 <style lang="scss" scoped></style>
