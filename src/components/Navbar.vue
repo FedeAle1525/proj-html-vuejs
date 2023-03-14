@@ -25,7 +25,10 @@ export default {
 
         <ul class="icons">
           <li><font-awesome-icon icon="fa-solid fa-magnifying-glass" /></li>
-          <li><font-awesome-icon icon="fa-solid fa-bag-shopping" /></li>
+          <li class="icon-bag">
+            <font-awesome-icon icon="fa-solid fa-bag-shopping" />
+            <div class="label">0</div>
+          </li>
           <li><font-awesome-icon icon="fa-solid fa-bars" /></li>
         </ul>
       </div>
@@ -36,6 +39,27 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use '../style/partials/variables' as *;
+
+.icon-bag {
+  position: relative;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: $light-blue;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 nav {
   padding: 20px 0;
   font-family: "Open Sans", sans-serif;
@@ -62,6 +86,11 @@ nav {
     .icons {
       display: flex;
       gap: 20px;
+
+      li {
+        font-size: 20px;
+        padding: 0 5px;
+      }
     }
   }
 }
