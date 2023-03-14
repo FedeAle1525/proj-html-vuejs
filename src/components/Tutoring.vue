@@ -1,6 +1,11 @@
 <script>
+import LabelTop from './LabelTop.vue';
+
 export default {
 
+  components: {
+    LabelTop,
+  }
 }
 </script>
 
@@ -19,6 +24,8 @@ export default {
       <a href="#">Learn More</a>
 
       <img src="/image/h5-img-1.jpg">
+
+      <LabelTop class="label" />
     </div>
   </section>
 </template>
@@ -31,6 +38,10 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 //2 - Creo Variabile con Font importato
 $font-merriweather: 'Merriweather', serif;
+
+section {
+  position: relative;
+}
 
 .container {
   padding: 50px 0;
@@ -59,6 +70,12 @@ $font-merriweather: 'Merriweather', serif;
 
   img {
     max-width: 90%;
+  }
+
+  .label {
+    position: absolute;
+    right: 0;
+    bottom: 25%;
   }
 }
 </style>
