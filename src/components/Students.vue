@@ -9,7 +9,7 @@ export default {
   <section>
     <div class="container-small">
       <div class="avatar">
-        <img src="/image/instructor-img-6-150x150.jpg">
+        <img src="/image/testimonials-standard-2.png">
       </div>
 
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non magnam minus dolor sequi et,

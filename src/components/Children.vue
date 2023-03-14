@@ -80,6 +80,7 @@ section {
     font-weight: 400;
     font-size: 17px;
     line-height: 26px;
+    color: $text-gray;
   }
 
   .numbers {

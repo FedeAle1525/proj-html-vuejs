@@ -13,9 +13,10 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { faAngleUp } from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faBagShopping, faBars, faAngleUp)
+library.add(faMagnifyingGlass, faBagShopping, faBars, faAngleUp, faCheck)
 
 createApp(App)
   .component('font-awesome-icon', FontAwesomeIcon)

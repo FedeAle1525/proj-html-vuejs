@@ -3,6 +3,7 @@ import Types from './Types.vue';
 import Tutoring from './Tutoring.vue';
 import Children from './Children.vue';
 import Students from './Students.vue';
+import Info from './Info.vue';
 
 export default {
 
@@ -10,7 +11,8 @@ export default {
     Types,
     Tutoring,
     Children,
-    Students
+    Students,
+    Info
   }
 }
 </script>
@@ -23,6 +25,8 @@ export default {
   <Children />
 
   <Students />
+
+  <Info />
 </template>
 
 <style lang="scss" scoped></style>
