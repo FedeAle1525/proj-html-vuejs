@@ -25,7 +25,7 @@ export default {
 
       <img src="/image/h5-img-1.jpg">
 
-      <LabelTop class="label" />
+      <!-- <LabelTop class="label" /> -->
     </div>
   </section>
 </template>

@@ -14,7 +14,9 @@ export default {
     <div class="container">
       <table>
         <tr class="header">
-          <td class="discount">Save up to 40% <br> by paying weekly</td>
+          <td class="discount">
+            Save up to 40% <br> by paying weekly
+          </td>
           <td class="plan">
             <ul class="list">
               <li class="img">
@@ -179,6 +181,7 @@ table {
     font-size: 24px;
     line-height: 36px;
     background-color: white;
+    text-align: bottom;
   }
 
   .plan {
