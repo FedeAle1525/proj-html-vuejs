@@ -84,6 +84,7 @@ nav {
 
       li {
         padding: 5px;
+        font-weight: 600;
       }
 
       li:hover {
@@ -101,6 +102,13 @@ nav {
         font-size: 20px;
         padding: 0 5px;
       }
+
+      li:hover {
+        color: $light-blue;
+        cursor: pointer;
+      }
+
+
     }
   }
 }

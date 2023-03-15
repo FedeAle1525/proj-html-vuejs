@@ -18,12 +18,12 @@ export default {
             </p>
 
             <div class="phone">
-              <font-awesome-icon icon="fa-solid fa-phone" />
+              <font-awesome-icon icon="fa-solid fa-phone" class="icon" />
               <span>1-677-124-44227</span>
             </div>
 
             <div class="time">
-              <font-awesome-icon icon="fa-regular fa-clock" />
+              <font-awesome-icon icon="fa-regular fa-clock" class="icon" />
               <span>Mon - Sat 8.00 - 18.00</span>
             </div>
 
@@ -119,6 +119,14 @@ section {
       .time {
         font-size: 12px;
         color: white;
+
+        &:hover {
+          cursor: pointer;
+
+          .icon {
+            color: $light-blue;
+          }
+        }
 
         span {
           margin-left: 10px;

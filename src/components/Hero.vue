@@ -54,6 +54,10 @@ $font-merriweather: 'Merriweather', serif;
     font-weight: 700;
     padding: 20px 30px;
     background-color: $light-blue;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 </style>
