@@ -5,6 +5,7 @@ import Children from './Children.vue';
 import Students from './Students.vue';
 import Info from './Info.vue';
 import Courses from './Courses.vue';
+import Plans from './Plans.vue';
 
 export default {
 
@@ -14,7 +15,8 @@ export default {
     Children,
     Students,
     Info,
-    Courses
+    Courses,
+    Plans
   }
 }
 </script>
@@ -31,6 +33,8 @@ export default {
   <Info />
 
   <Courses />
+
+  <Plans />
 </template>
 
 <style lang="scss" scoped></style>
