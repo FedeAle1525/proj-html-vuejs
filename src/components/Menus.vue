@@ -90,6 +90,7 @@ section {
   padding: 80px 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+  color: #CECECE
 }
 
 .row {

@@ -1,10 +1,12 @@
 <script>
 import Menus from './Menus.vue';
+import Credits from './Credits.vue';
 
 export default {
 
   components: {
-    Menus
+    Menus,
+    Credits
   }
 }
 </script>
@@ -12,6 +14,8 @@ export default {
 <template>
   <footer>
     <Menus />
+
+    <Credits />
   </footer>
 </template>
 
@@ -19,7 +23,6 @@ export default {
 <style lang="scss" scoped>
 footer {
   background-color: #222222;
-  color: #CECECE
 }
 </style>
 
