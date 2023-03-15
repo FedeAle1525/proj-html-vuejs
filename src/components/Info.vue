@@ -146,6 +146,7 @@ section {
   &:hover {
     background-color: #F2F2F2;
     color: $light-blue;
+    cursor: pointer;
   }
 
   &:last-child {

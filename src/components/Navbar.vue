@@ -81,6 +81,16 @@ nav {
       display: flex;
       gap: 40px;
       text-transform: uppercase;
+
+      li {
+        padding: 5px;
+      }
+
+      li:hover {
+        color: $light-blue;
+        cursor: pointer;
+        background: $bg-card-types;
+      }
     }
 
     .icons {

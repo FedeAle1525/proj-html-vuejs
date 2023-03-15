@@ -258,6 +258,7 @@ table {
       &:hover {
         background-color: $light-blue;
         color: white;
+        cursor: pointer;
       }
     }
   }
