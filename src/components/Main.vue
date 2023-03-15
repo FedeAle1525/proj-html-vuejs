@@ -6,6 +6,7 @@ import Students from './Students.vue';
 import Info from './Info.vue';
 import Courses from './Courses.vue';
 import Plans from './Plans.vue';
+import Partners from './Partners.vue';
 
 export default {
 
@@ -16,7 +17,8 @@ export default {
     Students,
     Info,
     Courses,
-    Plans
+    Plans,
+    Partners
   }
 }
 </script>
@@ -35,6 +37,8 @@ export default {
   <Courses />
 
   <Plans />
+
+  <Partners />
 </template>
 
 <style lang="scss" scoped></style>
